@@ -1,10 +1,6 @@
 [user]
-	name = Tomás Migone
-	email = tomasmigone@gmail.com
-
-[includeIf "gitdir:~/Documents/git/balena/"]
-    path = ~/Documents/git/balena/.gitconfig_balena
-
+	name = Juan Cruz Martino
+	email = juancruzmartino@gmail.com
 [alias]
     br = branch
     cl = clone
