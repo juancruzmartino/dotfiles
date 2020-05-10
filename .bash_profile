@@ -13,6 +13,8 @@ alias h='history'
 alias mkdir='mkdir -p'
 
 alias home='cd ~'
+alias laravel_complete='cd /home/jcm/Developement/freelo/larafliit/laradock && docker-compose up -d php-worker redis nginx mysql phpmyadmin && docker-compose exec --user=laradock workspace bash'
+alias laravel_down='cd /home/jcm/Developement/freelo/larafliit/laradock && docker-compose down'
 alias dev='cd ~/Documents/git/tmigone'
 alias bal='cd ~/Documents/git/balena'
 alias cl='clear'
