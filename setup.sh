@@ -14,7 +14,7 @@ if [ ! -f ~/.ssh/id_rsa ]; then
 fi
 
 # Computer name
-COMPUTER_NAME=jarvis
+COMPUTER_NAME=jcmm
 sudo scutil --set ComputerName "$COMPUTER_NAME" && \
 sudo scutil --set HostName "$COMPUTER_NAME" && \
 sudo scutil --set LocalHostName "$COMPUTER_NAME" && \
