@@ -61,12 +61,11 @@ mkdir -p ~/Documents/git/balena
 mkdir -p ~/Documents/git/tmigone
 
 # Git defaults
-wget -O ~/.gitconfig https://raw.githubusercontent.com/tmigone/dotfiles/master/.gitconfig
-wget -O ~/Documents/git/balena/.gitconfig_balena https://raw.githubusercontent.com/tmigone/dotfiles/master/.gitconfig_balena
+wget -O ~/.gitconfig https://raw.githubusercontent.com/juancruzmartino/dotfiles/master/.gitconfig
 
 # Npm defaults
-npm config set init-author-name "Tomás Migone" --global
-npm config set init-author-email "tomasmigone@gmail.com" --global
+npm config set init-author-name "Juan Cruz Martino" --global
+npm config set init-author-email "juancruzmartino@gmail.com" --global
 npm config set init-license "MIT" --global
 
 # Bash profile
